@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffdbd6bd"
+    android:weightSum="1"
+    android:id="@+id/v1Layout">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2"
+        android:weightSum="1"
+        android:padding="0dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:background="#fffaf5dc" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout8"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Abilities"
+                android:id="@+id/textView2"
+                android:typeface="serif"
+                android:textSize="15dp"
+                android:layout_marginLeft="3dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Ability"
+        android:id="@+id/v3_createAbilityButton"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="5dp"
+        android:background="#fffaf5dc"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:padding="5dp"
+        android:singleLine="true" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.86"
+        android:background="#fffaf5dc"
+        android:id="@+id/v3_abilityListHolder"></LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout6"
+        android:weightSum="1"
+        android:padding="0dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:layout_weight="0.10">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight=".50"
+            android:id="@+id/linearLayout20"
+            android:layout_gravity="center"
+            android:gravity="center|left" >
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prev"
+                android:id="@+id/v3_prevButton"
+                android:background="#fffaf5dc"
+                android:textStyle="bold"
+                android:typeface="serif"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:layout_weight="0.06"
+                android:layout_margin="5dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight=".50"
+            android:id="@+id/linearLayout21"
+            android:gravity="center|right" >
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Next >"
+                android:id="@+id/v3_nextButton"
+                android:background="#fffaf5dc"
+                android:textStyle="bold"
+                android:typeface="serif"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:layout_weight="0.06"
+                android:layout_margin="5dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:id="@+id/linearLayout7"
+        android:weightSum="1"
+        android:baselineAligned="false"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:background="#fffff638" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Advertisement"
+            android:id="@+id/textView15"
+            android:textSize="@dimen/highlight"
+            android:textIsSelectable="false"
+            android:padding="1dp"
+            android:password="false"
+            android:typeface="serif"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

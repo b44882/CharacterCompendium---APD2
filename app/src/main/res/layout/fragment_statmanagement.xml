@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffdbd6bd"
+    android:weightSum="1"
+    android:id="@+id/statManage_view">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/hpmanage_status"
+        android:weightSum="1"
+        android:background="#fffaf5dc"
+        android:layout_margin="5dp"
+        android:padding="5dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stat Management"
+            android:id="@+id/textView"
+            android:textSize="@dimen/highlight"
+            android:textIsSelectable="false"
+            android:padding="1dp"
+            android:password="false"
+            android:typeface="serif"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Manage Stats and Temp Stats.  Stat becomes green if temp stat is higher then base stat. Red if lower."
+            android:id="@+id/textView6"
+            android:textSize="@dimen/subtext"
+            android:textIsSelectable="false"
+            android:padding="1dp"
+            android:password="false"
+            android:typeface="serif"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout"
+        android:weightSum="1"
+        android:padding="0dp"
+        android:layout_weight="0.07"
+        android:gravity="center" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/linearLayout15"
+            android:weightSum="1"
+            android:background="#fffaf5dc"
+            android:padding="2dp"
+            android:focusable="false"
+            android:layout_margin="5dp"
+            android:gravity="center|center_vertical"
+            android:layout_weight=".6" >
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/stat_baseEditText"
+                android:text="12"
+                android:gravity="center"
+                android:typeface="serif"
+                android:textSize="@dimen/highlight" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DEX"
+                android:id="@+id/stat_baseText"
+                android:typeface="serif"
+                android:textStyle="bold"
+                android:textSize="@dimen/activity_horizontal_margin" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(+1)"
+                android:id="@+id/stat_baseModText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/linearLayout2"
+            android:weightSum="1"
+            android:background="#fffaf5dc"
+            android:padding="2dp"
+            android:focusable="false"
+            android:layout_margin="5dp"
+            android:gravity="center|center_vertical"
+            android:layout_weight=".6" >
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/stat_tempEditText"
+                android:text="14"
+                android:gravity="center"
+                android:typeface="serif"
+                android:textSize="@dimen/highlight"
+                android:textColor="#ff2c6f34" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TEMP DEX"
+                android:id="@+id/stat_tempText"
+                android:typeface="serif"
+                android:textStyle="bold"
+                android:textSize="@dimen/activity_horizontal_margin" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(+2)"
+                android:id="@+id/stat_tempModText" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="153dp"
+        android:id="@+id/linearLayout3"
+        android:weightSum="1"
+        android:background="#fffaf5dc"
+        android:padding="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="1dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notes"
+            android:id="@+id/textView4"
+            android:textSize="@dimen/highlight"
+            android:textIsSelectable="false"
+            android:padding="1dp"
+            android:password="false"
+            android:typeface="serif"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/stat_noteEditText" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout4"
+        android:weightSum="1"
+        android:padding="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="1dp"
+        android:baselineAligned="false"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal" >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save And Close"
+            android:id="@+id/stat_saveButton"
+            android:background="#fffaf5dc"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:layout_marginRight="10dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:id="@+id/stat_canceButton"
+            android:background="#fffaf5dc"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:layout_marginLeft="10dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:id="@+id/linearLayout5"
+        android:weightSum="1"
+        android:baselineAligned="false"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:background="#fffff638" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Advertisement"
+            android:id="@+id/textView5"
+            android:textSize="@dimen/highlight"
+            android:textIsSelectable="false"
+            android:padding="1dp"
+            android:password="false"
+            android:typeface="serif"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

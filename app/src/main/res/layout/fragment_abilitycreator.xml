@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffdbd6bd"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout6"
+        android:weightSum="1"
+        android:background="#fffaf5dc"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:layout_weight="0.06">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ability Creator"
+            android:id="@+id/textView11"
+            android:textSize="@dimen/highlight"
+            android:textIsSelectable="false"
+            android:padding="1dp"
+            android:password="false"
+            android:typeface="serif"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fill out info for a new ability."
+            android:id="@+id/textView12"
+            android:textSize="@dimen/subtext"
+            android:textIsSelectable="false"
+            android:padding="1dp"
+            android:password="false"
+            android:typeface="serif"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout3"
+        android:weightSum="1"
+        android:background="#fffaf5dc"
+        android:padding="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="1dp"
+        android:layout_weight="0.06">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:id="@+id/textView2"
+            android:textSize="@dimen/highlight"
+            android:textIsSelectable="false"
+            android:padding="1dp"
+            android:password="false"
+            android:typeface="serif"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ac_nameEditText" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout"
+        android:weightSum="1"
+        android:background="#fffaf5dc"
+        android:padding="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="1dp"
+        android:layout_weight="0.08"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="To Hit/Damage"
+            android:id="@+id/textView4"
+            android:textSize="@dimen/highlight"
+            android:textIsSelectable="false"
+            android:padding="1dp"
+            android:password="false"
+            android:typeface="serif"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ac_damageEditText" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2"
+        android:weightSum="1"
+        android:background="#fffaf5dc"
+        android:padding="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="1dp"
+        android:layout_gravity="center_horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:id="@+id/textView6"
+            android:textSize="@dimen/highlight"
+            android:textIsSelectable="false"
+            android:padding="1dp"
+            android:password="false"
+            android:typeface="serif"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ac_descEditText" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout4"
+        android:weightSum="1"
+        android:padding="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="1dp"
+        android:baselineAligned="false"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.63">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save and Close"
+            android:id="@+id/ac_saveAndCloseButton"
+            android:background="#fffaf5dc"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:layout_marginRight="10dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:id="@+id/ac_cancelButton"
+            android:background="#fffaf5dc"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:layout_marginLeft="10dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout5"
+        android:weightSum="1"
+        android:padding="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="1dp"
+        android:baselineAligned="false"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.19"
+        android:background="#fffff638">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Advertisement"
+            android:id="@+id/textView"
+            android:textSize="@dimen/highlight"
+            android:textIsSelectable="false"
+            android:padding="1dp"
+            android:password="false"
+            android:typeface="serif"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

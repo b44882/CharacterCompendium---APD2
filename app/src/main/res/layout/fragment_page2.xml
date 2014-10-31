@@ -1,0 +1,1011 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffdbd6bd"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout14"
+        android:weightSum="1"
+        android:padding="0dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:background="#fffaf5dc">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout8"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Saves And Skills"
+                android:id="@+id/textView"
+                android:typeface="serif"
+                android:textSize="15dp"
+                android:layout_marginLeft="3dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/linearLayout62"
+        android:layout_marginBottom="5dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/linearLayout37"
+            android:weightSum="1"
+            android:padding="0dp"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal|top"
+            android:background="#fffaf5dc"
+            android:layout_marginBottom="-5dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/linearLayout35"
+                android:weightSum="1"
+                android:background="#fffaf5dc"
+                android:padding="0dp"
+                android:focusable="false"
+                android:layout_margin="0dp"
+                android:gravity="center|left"
+                android:layout_weight=".35"
+                android:layout_marginBottom="-5dp">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="STR"
+                    android:id="@+id/v2_strCheck"
+                    android:checked="false"
+                    android:textSize="13dp"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(+1)"
+                    android:id="@+id/v2_strMod"
+                    android:textSize="13dp"
+                    android:typeface="serif" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/linearLayout36"
+                android:weightSum="1"
+                android:background="#fffaf5dc"
+                android:padding="0dp"
+                android:focusable="false"
+                android:layout_margin="0dp"
+                android:gravity="center|left"
+                android:layout_weight=".35"
+                android:layout_marginBottom="-5dp">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DEX"
+                    android:id="@+id/v2_dexCheck"
+                    android:checked="false"
+                    android:textSize="13dp"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(+1)"
+                    android:id="@+id/v2_dexMod"
+                    android:textSize="13dp"
+                    android:typeface="serif" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/linearLayout41"
+                android:weightSum="1"
+                android:background="#fffaf5dc"
+                android:padding="0dp"
+                android:focusable="false"
+                android:layout_margin="0dp"
+                android:gravity="center|left"
+                android:layout_weight=".35"
+                android:layout_marginBottom="-5dp">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CON"
+                    android:id="@+id/v2_conCheck"
+                    android:checked="false"
+                    android:textSize="13dp"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(+1)"
+                    android:id="@+id/v2_conMod"
+                    android:textSize="13dp"
+                    android:typeface="serif" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/linearLayout42"
+            android:weightSum="1"
+            android:padding="0dp"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal|top"
+            android:background="#fffaf5dc"
+            android:layout_marginBottom="-5dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/linearLayout38"
+                android:weightSum="1"
+                android:background="#fffaf5dc"
+                android:padding="0dp"
+                android:focusable="false"
+                android:layout_margin="0dp"
+                android:gravity="center|left"
+                android:layout_weight=".35"
+                android:layout_marginBottom="-5dp">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="INT"
+                    android:id="@+id/v2_intCheck"
+                    android:checked="false"
+                    android:textSize="13dp"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(+1)"
+                    android:id="@+id/v2_intMod"
+                    android:textSize="13dp"
+                    android:typeface="serif" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/linearLayout39"
+                android:weightSum="1"
+                android:background="#fffaf5dc"
+                android:padding="0dp"
+                android:focusable="false"
+                android:layout_margin="0dp"
+                android:gravity="center|left"
+                android:layout_weight=".35"
+                android:layout_marginBottom="-5dp">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WIS"
+                    android:id="@+id/v2_wisCheck"
+                    android:checked="false"
+                    android:textSize="13dp"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(+1)"
+                    android:id="@+id/v2_wisMod"
+                    android:textSize="13dp"
+                    android:typeface="serif" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/linearLayout40"
+                android:weightSum="1"
+                android:background="#fffaf5dc"
+                android:padding="0dp"
+                android:focusable="false"
+                android:layout_margin="0dp"
+                android:gravity="center|left"
+                android:layout_weight=".35"
+                android:layout_marginBottom="-5dp">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CHA"
+                    android:id="@+id/v2_chaCheck"
+                    android:checked="false"
+                    android:textSize="13dp"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(+1)"
+                    android:id="@+id/v2_chaMod"
+                    android:textSize="13dp"
+                    android:typeface="serif" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/linearLayout2"
+            android:weightSum="1"
+            android:padding="0dp"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal|top"
+            android:background="#fffaf5dc">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/linearLayout"
+                android:weightSum="1"
+                android:background="#fffaf5dc"
+                android:padding="0dp"
+                android:focusable="false"
+                android:gravity="center|left"
+                android:layout_weight=".5"
+                android:layout_marginBottom="-6dp">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Acrobatics(Dex)"
+                    android:id="@+id/v2_acrobaticsCheck"
+                    android:checked="false"
+                    android:textSize="10dp"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(+1)"
+                    android:id="@+id/v2_acrobaticsMod"
+                    android:textSize="10dp"
+                    android:typeface="serif" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/linearLayout3"
+                android:weightSum="1"
+                android:background="#fffaf5dc"
+                android:padding="0dp"
+                android:focusable="false"
+                android:gravity="center|left"
+                android:layout_weight=".5"
+                android:layout_marginBottom="-6dp">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Animal Handle(Wis)"
+                    android:id="@+id/v2_animalCheck"
+                    android:checked="false"
+                    android:textSize="10dp"
+                    android:typeface="serif"
+                    android:layout_marginLeft="-6dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(+1)"
+                    android:id="@+id/v2_animalMod"
+                    android:textSize="10dp"
+                    android:typeface="serif" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/linearLayout6"
+            android:weightSum="1"
+            android:padding="0dp"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal|top"
+            android:background="#fffaf5dc" >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/linearLayout4"
+                android:weightSum="1"
+                android:background="#fffaf5dc"
+                android:padding="0dp"
+                android:focusable="false"
+                android:gravity="center|left"
+                android:layout_weight=".5"
+                android:layout_marginBottom="-6dp">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Arcana(Int)"
+                    android:id="@+id/v2_arcanaCheck"
+                    android:checked="false"
+                    android:textSize="10dp"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(+1)"
+                    android:id="@+id/v2_arcanaMod"
+                    android:textSize="10dp"
+                    android:typeface="serif" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/linearLayout5"
+                android:weightSum="1"
+                android:background="#fffaf5dc"
+                android:padding="0dp"
+                android:focusable="false"
+                android:layout_weight=".5"
+                android:gravity="center|left"
+                android:layout_marginBottom="-6dp">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Athletics(Str)"
+                    android:id="@+id/v2_athleticsCheck"
+                    android:checked="false"
+                    android:textSize="10dp"
+                    android:typeface="serif"
+                    android:layout_marginLeft="-6dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(+1)"
+                    android:id="@+id/v2_athleticsMod"
+                    android:textSize="10dp"
+                    android:typeface="serif" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/linearLayout10"
+            android:weightSum="1"
+            android:padding="0dp"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal|top"
+            android:background="#fffaf5dc" >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/linearLayout7"
+                android:weightSum="1"
+                android:background="#fffaf5dc"
+                android:padding="0dp"
+                android:focusable="false"
+                android:gravity="center|left"
+                android:layout_weight=".5"
+                android:layout_marginBottom="-6dp">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Deception(Cha)"
+                    android:id="@+id/v2_deceptionCheck"
+                    android:checked="false"
+                    android:textSize="10dp"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(+1)"
+                    android:id="@+id/v2_deceptionMod"
+                    android:textSize="10dp"
+                    android:typeface="serif" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/linearLayout9"
+                android:weightSum="1"
+                android:background="#fffaf5dc"
+                android:padding="0dp"
+                android:focusable="false"
+                android:layout_weight=".5"
+                android:gravity="center|left"
+                android:layout_marginBottom="-6dp">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="History(Int)"
+                    android:id="@+id/v2_historyCheck"
+                    android:checked="false"
+                    android:textSize="10dp"
+                    android:typeface="serif"
+                    android:layout_marginLeft="-6dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(+1)"
+                    android:id="@+id/v2_historyMod"
+                    android:textSize="10dp"
+                    android:typeface="serif" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/linearLayout17"
+            android:weightSum="1"
+            android:padding="0dp"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal|top"
+            android:background="#fffaf5dc" >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/linearLayout15"
+                android:weightSum="1"
+                android:background="#fffaf5dc"
+                android:padding="0dp"
+                android:focusable="false"
+                android:gravity="center|left"
+                android:layout_weight=".5"
+                android:layout_marginBottom="-6dp">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Insight(Wis)"
+                    android:id="@+id/v2_insightCheck"
+                    android:checked="false"
+                    android:textSize="10dp"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(+1)"
+                    android:id="@+id/v2_insightMod"
+                    android:textSize="10dp"
+                    android:typeface="serif" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/linearLayout16"
+                android:weightSum="1"
+                android:background="#fffaf5dc"
+                android:padding="0dp"
+                android:focusable="false"
+                android:layout_weight=".5"
+                android:gravity="center|left"
+                android:layout_marginBottom="-6dp">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Intimidation(Cha)"
+                    android:id="@+id/v2_intimidationCheck"
+                    android:checked="false"
+                    android:textSize="10dp"
+                    android:typeface="serif"
+                    android:layout_marginLeft="-6dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(+1)"
+                    android:id="@+id/v2_intimidationMod"
+                    android:textSize="10dp"
+                    android:typeface="serif" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/linearLayout20"
+            android:weightSum="1"
+            android:padding="0dp"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal|top"
+            android:background="#fffaf5dc" >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/linearLayout18"
+                android:weightSum="1"
+                android:background="#fffaf5dc"
+                android:padding="0dp"
+                android:focusable="false"
+                android:gravity="center|left"
+                android:layout_weight=".5"
+                android:layout_marginBottom="-6dp">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Investigation(Cha)"
+                    android:id="@+id/v2_invetigateCheck"
+                    android:checked="false"
+                    android:textSize="10dp"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(+1)"
+                    android:id="@+id/v2_investigationMod"
+                    android:textSize="10dp"
+                    android:typeface="serif" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/linearLayout19"
+                android:weightSum="1"
+                android:background="#fffaf5dc"
+                android:padding="0dp"
+                android:focusable="false"
+                android:layout_weight=".5"
+                android:gravity="center|left"
+                android:layout_marginBottom="-6dp">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Medicine(Wis)"
+                    android:id="@+id/v2_medicineCheck"
+                    android:checked="false"
+                    android:textSize="10dp"
+                    android:typeface="serif"
+                    android:layout_marginLeft="-6dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(+1)"
+                    android:id="@+id/v2_medicineMod"
+                    android:textSize="10dp"
+                    android:typeface="serif" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/linearLayout24"
+            android:weightSum="1"
+            android:padding="0dp"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal|top"
+            android:background="#fffaf5dc" >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/linearLayout21"
+                android:weightSum="1"
+                android:background="#fffaf5dc"
+                android:padding="0dp"
+                android:focusable="false"
+                android:gravity="center|left"
+                android:layout_weight=".5"
+                android:layout_marginBottom="-6dp">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nature(Int)"
+                    android:id="@+id/v2_natureCheck"
+                    android:checked="false"
+                    android:textSize="10dp"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(+1)"
+                    android:id="@+id/v2_natureMod"
+                    android:textSize="10dp"
+                    android:typeface="serif" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/linearLayout22"
+                android:weightSum="1"
+                android:background="#fffaf5dc"
+                android:padding="0dp"
+                android:focusable="false"
+                android:layout_weight=".5"
+                android:gravity="center|left"
+                android:layout_marginBottom="-6dp">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Perception(Wis)"
+                    android:id="@+id/v2_perceptionCheck"
+                    android:checked="false"
+                    android:textSize="10dp"
+                    android:typeface="serif"
+                    android:layout_marginLeft="-6dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(+1)"
+                    android:id="@+id/v2_perceptionMod"
+                    android:textSize="10dp"
+                    android:typeface="serif" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/linearLayout28"
+            android:weightSum="1"
+            android:padding="0dp"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal|top"
+            android:background="#fffaf5dc" >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/linearLayout26"
+                android:weightSum="1"
+                android:background="#fffaf5dc"
+                android:padding="0dp"
+                android:focusable="false"
+                android:gravity="center|left"
+                android:layout_weight=".5"
+                android:layout_marginBottom="-6dp">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Performance(Cha)"
+                    android:id="@+id/v2_performanceCheck"
+                    android:checked="false"
+                    android:textSize="10dp"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(+1)"
+                    android:id="@+id/v2_performanceMod"
+                    android:textSize="10dp"
+                    android:typeface="serif" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/linearLayout27"
+                android:weightSum="1"
+                android:background="#fffaf5dc"
+                android:padding="0dp"
+                android:focusable="false"
+                android:layout_weight=".5"
+                android:gravity="center|left"
+                android:layout_marginBottom="-6dp">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Persuasion(Cha)"
+                    android:id="@+id/v2_persuasionCheck"
+                    android:checked="false"
+                    android:textSize="10dp"
+                    android:typeface="serif"
+                    android:layout_marginLeft="-6dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(+1)"
+                    android:id="@+id/v2_persuasionMod"
+                    android:textSize="10dp"
+                    android:typeface="serif" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/linearLayout31"
+            android:weightSum="1"
+            android:padding="0dp"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal|top"
+            android:background="#fffaf5dc" >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/linearLayout29"
+                android:weightSum="1"
+                android:background="#fffaf5dc"
+                android:padding="0dp"
+                android:focusable="false"
+                android:gravity="center|left"
+                android:layout_weight=".5"
+                android:layout_marginBottom="-6dp">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Religion(Int)"
+                    android:id="@+id/v2_religionCheck"
+                    android:checked="false"
+                    android:textSize="10dp"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(+1)"
+                    android:id="@+id/v2_religionMod"
+                    android:textSize="10dp"
+                    android:typeface="serif" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/linearLayout30"
+                android:weightSum="1"
+                android:background="#fffaf5dc"
+                android:padding="0dp"
+                android:focusable="false"
+                android:layout_weight=".5"
+                android:gravity="center|left"
+                android:layout_marginBottom="-6dp">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Slight of Hand(Dex)"
+                    android:id="@+id/v2_sleightCheck"
+                    android:checked="false"
+                    android:textSize="10dp"
+                    android:typeface="serif"
+                    android:layout_marginLeft="-6dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(+1)"
+                    android:id="@+id/v2_sleightMod"
+                    android:textSize="10dp"
+                    android:typeface="serif" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/linearLayout34"
+            android:weightSum="1"
+            android:padding="0dp"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal|top"
+            android:background="#fffaf5dc" >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/linearLayout32"
+                android:weightSum="1"
+                android:background="#fffaf5dc"
+                android:padding="0dp"
+                android:focusable="false"
+                android:gravity="center|left"
+                android:layout_weight=".5"
+                android:layout_marginBottom="-6dp">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Stealth(Dex)"
+                    android:id="@+id/v2_stealthCheck"
+                    android:checked="false"
+                    android:textSize="10dp"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(+1)"
+                    android:id="@+id/v2_stealthMod"
+                    android:textSize="10dp"
+                    android:typeface="serif" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/linearLayout33"
+                android:weightSum="1"
+                android:background="#fffaf5dc"
+                android:padding="0dp"
+                android:focusable="false"
+                android:layout_weight=".5"
+                android:gravity="center|left"
+                android:layout_marginBottom="-6dp">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Survival(Wis)"
+                    android:id="@+id/v2_survivalCheck"
+                    android:checked="false"
+                    android:textSize="10dp"
+                    android:typeface="serif"
+                    android:layout_marginLeft="-6dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(+1)"
+                    android:id="@+id/v2_survivalMod"
+                    android:textSize="10dp"
+                    android:typeface="serif" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout45"
+        android:weightSum="1"
+        android:padding="0dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp" >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight=".50"
+            android:id="@+id/linearLayout43"
+            android:layout_gravity="center"
+            android:gravity="center|left" >
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prev"
+                android:id="@+id/v2_prevButton"
+                android:background="#fffaf5dc"
+                android:textStyle="bold"
+                android:typeface="serif"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:layout_weight="0.06"
+                android:layout_margin="5dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight=".50"
+            android:id="@+id/linearLayout44"
+            android:gravity="center|right" >
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Next >"
+                android:id="@+id/v2_nextButton"
+                android:background="#fffaf5dc"
+                android:textStyle="bold"
+                android:typeface="serif"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:layout_weight="0.06"
+                android:layout_margin="5dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
